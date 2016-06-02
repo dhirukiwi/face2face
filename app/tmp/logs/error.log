@@ -1,0 +1,30 @@
+2016-05-16 13:28:52 Error: [MissingViewException] View file "Pages/test/test.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/test/test.ctp',
+)
+Request URL: /cakephp2_demo/pages/test
+Stack Trace:
+#0 /var/www/html/cakephp2_demo/lib/Cake/View/View.php(470): View->_getViewFileName('test/test')
+#1 /var/www/html/cakephp2_demo/lib/Cake/Controller/Controller.php(963): View->render('test/test', NULL)
+#2 /var/www/html/cakephp2_demo/app/Controller/PagesController.php(68): Controller->render('test/test')
+#3 [internal function]: PagesController->display('test', 'test')
+#4 /var/www/html/cakephp2_demo/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/html/cakephp2_demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/cakephp2_demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /var/www/html/cakephp2_demo/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-05-16 13:29:23 Error: [MissingViewException] View file "Pages/test/test.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/test/test.ctp',
+)
+Request URL: /cakephp2_demo/pages/test
+Stack Trace:
+#0 /var/www/html/cakephp2_demo/lib/Cake/View/View.php(470): View->_getViewFileName('test/test')
+#1 /var/www/html/cakephp2_demo/lib/Cake/Controller/Controller.php(963): View->render('test/test', NULL)
+#2 /var/www/html/cakephp2_demo/app/Controller/PagesController.php(68): Controller->render('test/test')
+#3 [internal function]: PagesController->display('test', 'test')
+#4 /var/www/html/cakephp2_demo/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/html/cakephp2_demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/cakephp2_demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /var/www/html/cakephp2_demo/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
