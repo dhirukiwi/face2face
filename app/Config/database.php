@@ -72,7 +72,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'root',
-		'database' => 'cakephp2_demo',
+		'database' => 'face2face_emr',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
