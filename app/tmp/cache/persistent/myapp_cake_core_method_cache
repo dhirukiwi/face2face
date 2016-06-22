@@ -1,0 +1,2 @@
+1466511456
+a:3:{i:0;b:0;s:4:"name";a:6:{s:32:"26a98227dc773ca777e4780b6f413fe5";s:15:"`cakephp2_demo`";s:32:"97e4c13a78dbd02b2c55fefaa562c815";s:10:"`patients`";s:32:"0baa7ade11c35015ffc6abc3465bd5e5";s:22:"`Patient`.`patient_id`";s:32:"ae183d60a9fad485e3ab424fb52e216e";s:16:"`Patient`.`name`";s:32:"cab8748388e1662da08318baf7dace7f";s:15:"`Patient`.`age`";s:32:"fdddec0bead4e0401912081b488944c6";s:9:"`Patient`";}s:6:"fields";a:1:{s:32:"7a751439bc79e567a3d0ae3e7c6442d6";a:3:{i:0;s:22:"`Patient`.`patient_id`";i:1;s:16:"`Patient`.`name`";i:2;s:15:"`Patient`.`age`";}}}

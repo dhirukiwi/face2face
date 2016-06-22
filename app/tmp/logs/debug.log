@@ -1,0 +1,63 @@
+2016-06-07 18:55:18 Notice: Notice (8): Indirect modification of overloaded property EmrsController::$Patient has no effect in [/var/www/html/f2f_cake2/app/Plugin/Emr/Controller/EmrsController.php, line 12]
+Trace:
+EmrsController::index() - APP/Plugin/Emr/Controller/EmrsController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-06-07 18:55:23 Notice: Notice (8): Indirect modification of overloaded property EmrsController::$Patient has no effect in [/var/www/html/f2f_cake2/app/Plugin/Emr/Controller/EmrsController.php, line 12]
+Trace:
+EmrsController::index() - APP/Plugin/Emr/Controller/EmrsController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-06-07 18:55:23 Notice: Notice (8): Indirect modification of overloaded property EmrsController::$Patient has no effect in [/var/www/html/f2f_cake2/app/Plugin/Emr/Controller/EmrsController.php, line 12]
+Trace:
+EmrsController::index() - APP/Plugin/Emr/Controller/EmrsController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-06-07 18:55:23 Notice: Notice (8): Indirect modification of overloaded property EmrsController::$Patient has no effect in [/var/www/html/f2f_cake2/app/Plugin/Emr/Controller/EmrsController.php, line 12]
+Trace:
+EmrsController::index() - APP/Plugin/Emr/Controller/EmrsController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-06-07 18:55:24 Notice: Notice (8): Indirect modification of overloaded property EmrsController::$Patient has no effect in [/var/www/html/f2f_cake2/app/Plugin/Emr/Controller/EmrsController.php, line 12]
+Trace:
+EmrsController::index() - APP/Plugin/Emr/Controller/EmrsController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-06-07 18:55:24 Notice: Notice (8): Indirect modification of overloaded property EmrsController::$Patient has no effect in [/var/www/html/f2f_cake2/app/Plugin/Emr/Controller/EmrsController.php, line 12]
+Trace:
+EmrsController::index() - APP/Plugin/Emr/Controller/EmrsController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-06-07 18:55:24 Notice: Notice (8): Indirect modification of overloaded property EmrsController::$Patient has no effect in [/var/www/html/f2f_cake2/app/Plugin/Emr/Controller/EmrsController.php, line 12]
+Trace:
+EmrsController::index() - APP/Plugin/Emr/Controller/EmrsController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
