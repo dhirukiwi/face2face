@@ -8,10 +8,15 @@
 
 class PatientsController extends AppController{
     public $components = array('RequestHandler');
+    
+    public function beforeFilter() {
+        parent::beforeFilter();
+    }
+
+
     public function index(){
+        $this->autoRender = false;
        
-        //$this->Patient->useDbConfig = 'default';
-        $this->loadModel('Patient');
         $pt = $this->Patient->find('all');
         $this->set(array(
             'patients' => $pt,

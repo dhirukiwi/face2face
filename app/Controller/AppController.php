@@ -31,4 +31,52 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+    public $components = array(
+        'Flash',
+        'Acl',
+        'Auth' => array(
+            'authorize' => array(
+                'Actions' => array('actionPath' => 'controllers')
+            )
+        ),
+        'Session'
+    );
+    public function beforeFilter() {
+        parent::beforeFilter();
+        //pr($this->Auth->User());//die;
+        //$this->Auth->allow('login','index');
+        //$this->RequestHandler->ext = 'json';
+        //Configure AuthComponent
+        $this->Auth->loginAction = array(
+          'controller' => 'users',
+          'action' => 'login'
+        );
+        $this->Auth->logoutRedirect = array(
+          'controller' => 'users',
+          'action' => 'login'
+        );
+        $this->Auth->loginRedirect = array(
+          'controller' => 'users',
+          'action' => 'index'
+        );
+    }
+    
+     public function beforeRender() {
+        parent::beforeRender();
+        
+        if (!(in_array($this->params['action'], $this->Auth->allowedActions) && empty($this->Auth->User()))) {
+            if ($this->name != 'CakeError' && (!$this->Acl->check(array('model' => 'Group',
+
+                        'foreign_key' => AuthComponent::user('group_id')), $this->name . '/' . $this->request->params['action']
+                    ) || !$this->Acl->check(array('model' => 'User',
+                        'foreign_key' => AuthComponent::user('id')), $this->name . '/' . $this->request->params['action']
+                    ))) {
+                pr('Not authorized');die;
+               
+            }
+        }
+    }
+    
+
+   
 }

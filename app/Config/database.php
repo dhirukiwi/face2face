@@ -77,7 +77,7 @@ class DATABASE_CONFIG {
 		//'encoding' => 'utf8',
 	);
 
-	public $emr1 = array(
+	/*public $emr1 = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
@@ -86,5 +86,5 @@ class DATABASE_CONFIG {
 		'database' => 'emr',
 		'prefix' => '',
 		//'encoding' => 'utf8',
-	);
+	);*/
 }

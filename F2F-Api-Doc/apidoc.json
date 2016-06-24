@@ -1,0 +1,11 @@
+{
+  "name": "F2F Core API",
+  "version": "1.0.0",
+  "description": "This document covers all the request and response of F2F Core API. It also covers blah blah ....",
+  "title": "F2F Core API",
+  "url" : "https://api.f2f.io",
+  "template": {
+   "withCompare": true,
+   "withGenerator": true
+  }
+}
