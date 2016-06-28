@@ -121,6 +121,11 @@ class PermissionsController extends AppController {
         echo "all done";
         exit;
     }
+    function test() {
+        $Role->id = 1;
+        $this->Acl->allow($aro, 'controller/');
+        
+    }
 
     /**
      * total methos 1:

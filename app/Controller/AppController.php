@@ -43,9 +43,10 @@ class AppController extends Controller {
     );
     public function beforeFilter() {
         parent::beforeFilter();
+        
         //pr($this->Auth->User());//die;
         //$this->Auth->allow('login','index');
-        //$this->RequestHandler->ext = 'json';
+         //$this->RequestHandler->ext = 'json';
         //Configure AuthComponent
         $this->Auth->loginAction = array(
           'controller' => 'users',
@@ -59,6 +60,7 @@ class AppController extends Controller {
           'controller' => 'users',
           'action' => 'index'
         );
+        
     }
     
      public function beforeRender() {
@@ -71,7 +73,7 @@ class AppController extends Controller {
                     ) || !$this->Acl->check(array('model' => 'User',
                         'foreign_key' => AuthComponent::user('id')), $this->name . '/' . $this->request->params['action']
                     ))) {
-                pr('Not authorized');die;
+                //pr('Not authorized');die;
                
             }
         }

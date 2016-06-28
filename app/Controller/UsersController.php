@@ -2,10 +2,11 @@
 
 class UsersController extends AppController {
     public $components = array('RequestHandler','Auth','Session');
-     public $helpers = array('Html','Form');
-
+    public $helpers = array('Html','Form');
+    public $uses = array('Token');
     public function beforeFilter() {
         parent::beforeFilter();
+        
         $this->Auth->allow();
     }
     /*public function initDB() {
@@ -37,6 +38,7 @@ class UsersController extends AppController {
     exit;
 }*/
     public function index() {
+        
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
     }
@@ -44,7 +46,7 @@ class UsersController extends AppController {
         
         if ($this->request->is('post')) {
             
-            pr($this->request->data);
+            
             $data = $this->request->data;
             $this->User->set($this->request->data);
             if($this->User->validates()) {
@@ -77,19 +79,45 @@ class UsersController extends AppController {
     }
     
     public function logout() {
+       
+        $this->Token->delete(
+                array
+            (
+            'conditions'=>array(
+                
+            'user_id'=>$this->Auth->User('id')
+                )));
         $this->Auth->logout();
-        
-        
     }
     public function login() {
-        //$this->autoRender = false;
-        if ($this->request->is('post')) {
+        
+        if($this->Auth->loggedIn()){
+        $this->redirect(array('controller' => 'users','action' => 'index'));
+        }
+       
+        if ($this->request->is('post')){
+            
+            
+            
+            
         if ($this->Auth->login()) {
+            
+            $session_token = $this->Session->id();
+           
+            $user_id = $this->Auth->user('id');
+           
+            $token_array= array(
+                'Token'=>array(
+                 'user_id'=>$user_id,'token'=>$session_token));
+            $this->Token->create();
+            $this->Token->save($token_array);
+             //print_r($this->Session->read(Auth.User));
             return $this->redirect($this->Auth->redirectUrl());
+          
         }
         $this->Flash->error(__('Invalid username or password, try again'));
        }
-       /* if ($this->request->is('post')) {
+        /*if ($this->request->is('post')) {
         $data = $this->request->data;
         $this->User->set($this->request->data);
         if($this->User->validates()) {

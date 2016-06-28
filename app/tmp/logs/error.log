@@ -7203,3 +7203,412 @@ Stack Trace:
 #3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2016-06-24 17:22:27 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-24 17:36:32 Error: [MissingViewException] View file "Users/json/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/login.ctp',
+)
+Request URL: /face2face/users/login.json
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-24 17:36:40 Error: [MissingViewException] View file "Users/json/signup.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/signup.ctp',
+)
+Request URL: /face2face/users/signup.json
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 12:46:11 Error: [MissingViewException] View file "Users/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/index.ctp',
+)
+Request URL: /face2face/users/
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 12:46:16 Error: [MissingViewException] View file "Users/json/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/login.ctp',
+)
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 12:46:21 Error: [MissingActionException] Action UsersController::login.son() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login.son',
+)
+Request URL: /face2face/users/login.son
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-27 12:46:26 Error: [MissingViewException] View file "Users/json/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/login.ctp',
+)
+Request URL: /face2face/users/login.json
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 12:46:31 Error: [MissingViewException] View file "Users/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/index.ctp',
+)
+Request URL: /face2face/users/
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 12:49:42 Error: [MissingViewException] View file "Users/json/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/login.ctp',
+)
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:07:16 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:19:38 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:20:41 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:22:30 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/html/face2face/app/Controller/UsersController.php, line 113]
+2016-06-27 15:22:30 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 113)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 113, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 113, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-27 15:24:50 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/html/face2face/app/Controller/UsersController.php, line 115]
+2016-06-27 15:24:50 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 115, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 115, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-27 15:26:55 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:27:52 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/logout
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-27 15:28:02 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/logout/login
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-27 15:28:07 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/login
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-27 15:28:22 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/user/logout
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-27 15:28:31 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:28:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `fa...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `fa...')
+#3 /var/www/html/face2face/lib/Cake/Model/Model.php(1933): DboSource->create(Object(Token), Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/face2face/app/Controller/UsersController.php(116): Model->save(Array)
+#6 [internal function]: UsersController->login()
+#7 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-27 15:32:03 Error: Fatal Error (1): Call to undefined method AuthComponent::getUser() in [/var/www/html/face2face/app/Controller/UsersController.php, line 102]
+2016-06-27 15:32:03 Error: [FatalErrorException] Call to undefined method AuthComponent::getUser()
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/f...', 102)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/f...', 102, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/f...', 102, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-27 15:33:47 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:36:43 Error: Fatal Error (1): Call to undefined method SessionComponent::config() in [/var/www/html/face2face/app/Controller/UsersController.php, line 41]
+2016-06-27 15:36:43 Error: [FatalErrorException] Call to undefined method SessionComponent::config()
+Request URL: /face2face/users
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/f...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/f...', 41, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/f...', 41, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-27 15:39:48 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:40:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `fa...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `fa...')
+#3 /var/www/html/face2face/lib/Cake/Model/Model.php(1933): DboSource->create(Object(Token), Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/face2face/app/Controller/UsersController.php(118): Model->save(Array)
+#6 [internal function]: UsersController->login()
+#7 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-27 15:40:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `fa...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `fa...')
+#3 /var/www/html/face2face/lib/Cake/Model/Model.php(1933): DboSource->create(Object(Token), Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/face2face/app/Controller/UsersController.php(118): Model->save(Array)
+#6 [internal function]: UsersController->login()
+#7 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-27 15:41:39 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:43:35 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:43:46 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `fa...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `fa...')
+#3 /var/www/html/face2face/lib/Cake/Model/Model.php(1933): DboSource->create(Object(Token), Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/face2face/app/Controller/UsersController.php(118): Model->save(Array)
+#6 [internal function]: UsersController->login()
+#7 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-27 15:47:17 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:48:00 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:48:11 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-27 15:57:54 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/var/www/html/face2face/app/Controller/UsersController.php, line 85]
+2016-06-27 15:57:54 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 85, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 85, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-27 15:58:45 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
