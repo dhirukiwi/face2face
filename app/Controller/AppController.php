@@ -46,7 +46,7 @@ class AppController extends Controller {
         
         //pr($this->Auth->User());//die;
         //$this->Auth->allow('login','index');
-         //$this->RequestHandler->ext = 'json';
+         $this->RequestHandler->ext = 'json';
         //Configure AuthComponent
         $this->Auth->loginAction = array(
           'controller' => 'users',

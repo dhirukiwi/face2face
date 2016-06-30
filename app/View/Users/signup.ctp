@@ -13,9 +13,18 @@
         <?php echo $this->Form->input('username');
         echo $this->Form->input('password');
         //echo $this->Form->input('group_id',array(1,2,3));
-       echo $this->Form->input('group_id', array(
-            'options' => array('1' => 'admin', '2' => 'provider','3'=>'consumer','4'=>'patient')
-         ));
+       echo $this->Form->input('group_id', 
+               array('empty' => '--select group--',
+                     'options'=>array(
+                         '1' => 'admin', 
+                         '2' => 'provider',
+                         '3'=>'consumer',
+                         '4'=>'patient'
+                         )
+                   )
+               );
+           
+         
     ?>
     </fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

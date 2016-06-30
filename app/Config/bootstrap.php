@@ -112,3 +112,4 @@ CakeLog::config('error', array(
 
 //CakePlugin::load('Emr', array('bootstrap' => false, 'routes' => false));
 CakePlugin::load('AclExtras', array('bootstrap' => false, 'routes' => false));
+Configure::load('error_codes');

@@ -7612,3 +7612,613 @@ Stack Trace:
 #3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2016-06-28 14:36:40 Error: [MissingControllerException] Controller class MoodlesController could not be found.
+Exception Attributes: array (
+  'class' => 'MoodlesController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/moodles/allcourses
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-28 14:36:52 Error: [MissingControllerException] Controller class MoodlesController could not be found.
+Exception Attributes: array (
+  'class' => 'MoodlesController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/moodles/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-28 14:37:07 Error: [MissingControllerException] Controller class MoodletestsController could not be found.
+Exception Attributes: array (
+  'class' => 'MoodletestsController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-28 14:38:29 Error: [MissingControllerException] Controller class Face2faceController could not be found.
+Exception Attributes: array (
+  'class' => 'Face2faceController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/face2face/users
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-28 14:38:53 Error: [MissingControllerException] Controller class Face2faceController could not be found.
+Exception Attributes: array (
+  'class' => 'Face2faceController',
+  'plugin' => NULL,
+)
+Request URL: /face2face/face2face/users
+Stack Trace:
+#0 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-28 14:41:06 Error: [MissingViewException] View file "Moodletests/all_courses.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Moodletests/all_courses.ctp',
+)
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MoodletestsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-28 14:41:06 Error: [MissingViewException] View file "Moodletests/all_courses.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Moodletests/all_courses.ctp',
+)
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MoodletestsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-28 14:44:18 Error: [MissingViewException] View file "Moodletests/all_courses.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Moodletests/all_courses.ctp',
+)
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MoodletestsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-28 15:13:06 Error: [MissingViewException] View file "Moodletests/all_courses.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Moodletests/all_courses.ctp',
+)
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MoodletestsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-28 16:59:35 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 9]
+2016-06-28 16:59:35 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:00:19 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 9]
+2016-06-28 17:00:19 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:01:50 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 9]
+2016-06-28 17:01:50 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:02:30 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 9]
+2016-06-28 17:02:30 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:02:40 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 9]
+2016-06-28 17:02:40 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:02:52 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 9]
+2016-06-28 17:02:52 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:03:29 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 9]
+2016-06-28 17:03:29 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:03:42 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 9]
+2016-06-28 17:03:42 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 9, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:04:21 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 18]
+2016-06-28 17:04:21 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 18)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 18, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 18, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-28 17:04:42 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 18]
+2016-06-28 17:04:42 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 18)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 18, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 18, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:37:15 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 10]
+2016-06-29 14:37:15 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 10, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 10, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:38:31 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 10]
+2016-06-29 14:38:31 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 10, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 10, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:39:02 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:39:02 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:39:29 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:39:29 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:39:51 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:39:51 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:45:29 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:45:29 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:45:46 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:45:46 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:45:53 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:45:53 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:46:01 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodleconfig.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:46:01 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodleconfig.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:46:19 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:46:19 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:46:36 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:46:36 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:46:43 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot//config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:46:43 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot//config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:46:55 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot//config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:46:55 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot//config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:47:03 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:47:03 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:47:28 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot//config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:47:28 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/app/webroot//config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:48:27 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2faceDSconfig.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:48:27 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2faceDSconfig.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:48:44 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/lib/setup.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/config.php, line 26]
+2016-06-29 14:48:44 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/face2face/lib/setup.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 26)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 26, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 26, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:50:23 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'var/www/html/moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/html/face2face/app/Controller/MoodletestsController.php, line 8]
+2016-06-29 14:50:23 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'var/www/html/moodle/config.php' (include_path='/var/www/html/face2face/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/f...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/f...', 8, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:50:37 Error: Fatal Error (64): Cannot make static method Cache::set() non static in class cache_session in [/var/www/html/moodle/cache/classes/loaders.php, line 0]
+2016-06-29 14:50:37 Error: [FatalErrorException] Cannot make static method Cache::set() non static in class cache_session
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot make sta...', '/var/www/html/m...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot make sta...', '/var/www/html/m...', 0, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot make sta...', '/var/www/html/m...', 0, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-29 14:51:17 Error: Fatal Error (64): Cannot redeclare class object in [/var/www/html/moodle/lib/setuplib.php, line 0]
+2016-06-29 14:51:17 Error: [FatalErrorException] Cannot redeclare class object
+Request URL: /face2face/moodletests/allCourses
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/m...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/m...', 0, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/m...', 0, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-30 12:47:58 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 12:49:12 Error: Fatal Error (1): Call to a member function set() on a non-object in [/var/www/html/face2face/app/Controller/UsersController.php, line 51]
+2016-06-30 12:49:12 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 51, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 51, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-30 13:20:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `fa...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `fa...')
+#3 /var/www/html/face2face/lib/Cake/Model/Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/face2face/app/Controller/UsersController.php(54): Model->save(Array)
+#6 [internal function]: UsersController->signup()
+#7 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-30 13:20:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+Request URL: /face2face/users/signup.json
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `fa...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `fa...')
+#3 /var/www/html/face2face/lib/Cake/Model/Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/face2face/app/Controller/UsersController.php(54): Model->save(Array)
+#6 [internal function]: UsersController->signup()
+#7 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-30 13:20:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+Request URL: /face2face/users/signup.json
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `fa...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `fa...')
+#3 /var/www/html/face2face/lib/Cake/Model/Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/face2face/app/Controller/UsersController.php(54): Model->save(Array)
+#6 [internal function]: UsersController->signup()
+#7 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-30 13:42:19 Error: [MissingViewException] View file "Users/json/signup.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/signup.ctp',
+)
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 13:51:55 Error: [MissingViewException] View file "Users/json/signup.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/signup.ctp',
+)
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 13:52:04 Error: [MissingViewException] View file "Users/json/signup.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/signup.ctp',
+)
+Request URL: /face2face/users/signup.json
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 13:52:44 Error: [MissingViewException] View file "Users/json/signup.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/signup.ctp',
+)
+Request URL: /face2face/users/signup.json
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 13:52:56 Error: [MissingViewException] View file "Users/json/signup.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/signup.ctp',
+)
+Request URL: /face2face/users/signup.json
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 13:57:22 Error: [MissingViewException] View file "Users/json/signup.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/signup.ctp',
+)
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 15:03:37 Error: [SocketException] You need to specify at least one destination for to, cc or bcc.
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/app/Controller/Component/ValidateComponent.php(72): CakeEmail->send()
+#1 /var/www/html/face2face/app/Controller/UsersController.php(57): ValidateComponent->sendEmailVerification(NULL)
+#2 [internal function]: UsersController->signup()
+#3 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-06-30 15:03:46 Error: [MissingViewException] View file "Users/json/signup.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/signup.ctp',
+)
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-30 15:07:43 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `fa...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `fa...')
+#3 /var/www/html/face2face/lib/Cake/Model/Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/face2face/app/Controller/UsersController.php(54): Model->save(Array)
+#6 [internal function]: UsersController->signup()
+#7 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-30 16:13:56 Error: Fatal Error (1): Class 'curl' not found in [/var/www/html/face2face/app/Controller/UsersController.php, line 178]
+2016-06-30 16:13:56 Error: [FatalErrorException] Class 'curl' not found
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'curl' no...', '/var/www/html/f...', 178)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'curl' no...', '/var/www/html/f...', 178, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'curl' no...', '/var/www/html/f...', 178, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-30 16:15:52 Error: Fatal Error (1): Class 'curl' not found in [/var/www/html/face2face/app/Controller/UsersController.php, line 178]
+2016-06-30 16:15:52 Error: [FatalErrorException] Class 'curl' not found
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'curl' no...', '/var/www/html/f...', 178)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'curl' no...', '/var/www/html/f...', 178, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'curl' no...', '/var/www/html/f...', 178, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-30 16:19:12 Error: Fatal Error (1): Class 'curl' not found in [/var/www/html/face2face/app/Controller/UsersController.php, line 179]
+2016-06-30 16:19:12 Error: [FatalErrorException] Class 'curl' not found
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'curl' no...', '/var/www/html/f...', 179)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'curl' no...', '/var/www/html/f...', 179, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'curl' no...', '/var/www/html/f...', 179, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-30 16:20:58 Error: Fatal Error (1): Class 'curl' not found in [/var/www/html/face2face/app/Controller/UsersController.php, line 179]
+2016-06-30 16:20:58 Error: [FatalErrorException] Class 'curl' not found
+Request URL: /face2face/users/signup
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'curl' no...', '/var/www/html/f...', 179)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'curl' no...', '/var/www/html/f...', 179, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'curl' no...', '/var/www/html/f...', 179, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

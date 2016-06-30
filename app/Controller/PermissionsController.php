@@ -44,7 +44,7 @@ class PermissionsController extends AppController {
         //$this->Auth->allow('login', 'forgotPassword', 'forgotChangePassword', 'clientSighup', 'firmSighup', 'upgardeSubscriptionEmail');
     }
 
-     public function aro_rebuild() {
+    public function aro_rebuild() {
         $this->autoRender = false;
         //$this->Acl->check("Admin", "Admins");
         echo "Working";
@@ -85,7 +85,7 @@ class PermissionsController extends AppController {
     public function aro_aco_assign() {
         //App::uses('UsersController', 'Admin.Controller');
         $group = $this->User->Group;
-        
+
         // Allow admins to everything
         $group->id = 3;
         $this->Acl->allow($group, 'controllers');
@@ -93,26 +93,26 @@ class PermissionsController extends AppController {
 
         // ACL for client
         $group->id = 1;
-        
-        /*$this->Acl->deny($group, 'controllers/Firms');
-        $this->Acl->deny($group, 'controllers/users/clientSighup');
-        $this->Acl->allow($group, 'controllers/Clients/subscription');*/
+
+        /* $this->Acl->deny($group, 'controllers/Firms');
+          $this->Acl->deny($group, 'controllers/users/clientSighup');
+          $this->Acl->allow($group, 'controllers/Clients/subscription'); */
         $this->Acl->allow($group, 'controllers');
 
         //ACL for firms
         $group->id = 2;
-       
-        /*$this->Acl->deny($group, 'controllers/Clients');
-        $this->Acl->deny($group, 'controllers/Users/clientSighup');*/
-         $this->Acl->allow($group, 'controllers');
 
-        
-        /*$user = $this->User;
-        $user->id = 42;
-        $this->Acl->deny($user, 'controllers');
-        $this->Acl->deny($user, 'controllers/Firms');
-        $this->Acl->allow($user,'controllers/Firms/subscription');*/
-        
+        /* $this->Acl->deny($group, 'controllers/Clients');
+          $this->Acl->deny($group, 'controllers/Users/clientSighup'); */
+        $this->Acl->allow($group, 'controllers');
+
+
+        /* $user = $this->User;
+          $user->id = 42;
+          $this->Acl->deny($user, 'controllers');
+          $this->Acl->deny($user, 'controllers/Firms');
+          $this->Acl->allow($user,'controllers/Firms/subscription'); */
+
 
 
         //$this->Acl->deny($group, 'controllers/users/clientSighup');
@@ -121,10 +121,10 @@ class PermissionsController extends AppController {
         echo "all done";
         exit;
     }
+
     function test() {
         $Role->id = 1;
         $this->Acl->allow($aro, 'controller/');
-        
     }
 
     /**
