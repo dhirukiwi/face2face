@@ -38,13 +38,13 @@ class User extends AppModel {
         }
         return true;
     }
-
+    
     public $validate = array(
         'first_name' => array(
-            
+
                 'rule' => 'notBlank',
                  'required'=>true,
-		'message' => 'first name is required',
+                'message' => 'first name is required',
         ),
         'username' => array(
             'required' => array(
@@ -77,7 +77,7 @@ class User extends AppModel {
                 'rule' => 'notBlank',
                 'message' => 'Password is required',
                 'required'=>true
-                
+
             ),
             array(
                 'rule' => array('minLength', 6),
@@ -90,7 +90,7 @@ class User extends AppModel {
         ),
         'cpassword' => array(
              'required' => array(
-           
+
                 'rule' => 'notBlank',
                 'message' => 'Please Enter Confirm password',
                 'required'=>true
@@ -102,13 +102,67 @@ class User extends AppModel {
         ),
         'group_id' => array(
         'required' => array(
-           
+
                 'rule' => 'notBlank',
                 'message' => 'Please Enter valid Group id',
                 'required'=>true
             )
       )
     );
+    
+    
+    public function setLogin() {
+        $validate1 = array(
+            
+            'username' => array(
+
+                'rule' => 'notBlank',
+                 'required'=>true,
+                'message' => 'Username is required',
+        ),
+           
+           'password' => array(
+
+                'rule' => 'notBlank',
+                 'required'=>true,
+                'message' => 'password is required',
+        ),
+        );
+        $this->validate = $validate1;
+    }
+    
+    public function setPassword() {
+        $validate1 = array(
+            'password' => array(
+                   'required' => array(
+                    'rule' => 'notBlank',
+                    'message' => 'Password is required',
+                    'required'=>true
+
+                ),
+                array(
+                    'rule' => array('minLength', 8),
+                    'message' => 'Passwords must be at least 8 characters long.',
+                ),
+                array(
+                    'rule' => 'password_strength',
+                    'message' => 'Password must have (A-Z), (a-z), (0-9) and a Special Character.'
+                )
+            ),
+           'cpassword' => array(
+                'required' => array(
+                'rule' => 'notBlank',
+                'message' => 'Confirm password is required',
+                'required'=>true
+                ),
+                array(
+                    'rule' => 'confirm_passwords',
+                    'message' => 'Password & Confirm Password must be match.'
+                )
+            )
+        );
+        $this->validate = $validate1;
+    }
     
     function confirm_passwords() {  
         if(!empty($this->data['User']['password']) && !empty($this->data['User']['cpassword'])){

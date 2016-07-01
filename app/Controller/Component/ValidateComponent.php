@@ -195,7 +195,24 @@ class ValidateComponent extends Component {
         if (function_exists('com_create_guid') === true) {
             return trim(com_create_guid(), '{}');
         }
-        echo sprintf('%04X%04X-%04X-%04X-%04X-%04X%04X%04X', mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(16384, 20479), mt_rand(32768, 49151), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535)); die;
+        return sprintf('%04X%04X-%04X-%04X-%04X-%04X%04X%04X', mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(16384, 20479), mt_rand(32768, 49151), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535));
+    }
+    
+    function forgotPasswordMail($useremail, $guid) {
+        //$encrptMail = base64_encode($useremail);
+        $Email = new CakeEmail('smtp');
+        $Email->from(array('admin@f2fhealth.com' => 'Send from Face2Face Healthcare'));
+        $Email->template('forgot');
+        $Email->emailFormat('html');
+        $Email->viewVars(array('guid' => $guid));
+        $Email->to($useremail);
+        $Email->subject('Face2Face Healthcare Forgot Password Request');
+
+        if ($Email->send()) {
+            return 'success';
+        } else {
+            return 'failure';
+        }
     }
 }
 
