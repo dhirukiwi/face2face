@@ -8267,3 +8267,177 @@ Stack Trace:
 #3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2016-07-06 15:51:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Token.token' in 'where clause'
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/face2face/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/face2face/app/Model/User.php(186): Model->find('first', Array)
+#7 /var/www/html/face2face/app/Model/Token.php(19): User->findByToken('7824bf617b8d4e5...')
+#8 /var/www/html/face2face/app/Controller/UsersController.php(265): Token->check_token()
+#9 [internal function]: UsersController->logout()
+#10 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-07-06 15:52:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token' in 'where clause'
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/face2face/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/face2face/app/Model/User.php(186): Model->find('first', Array)
+#7 /var/www/html/face2face/app/Model/Token.php(19): User->findByToken('7824bf617b8d4e5...')
+#8 /var/www/html/face2face/app/Controller/UsersController.php(265): Token->check_token()
+#9 [internal function]: UsersController->logout()
+#10 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-07-06 15:52:22 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/face2face/app/Model/User.php, line 184]
+2016-07-06 15:52:22 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 184)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 184, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 184, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-06 15:53:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token' in 'where clause'
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/face2face/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/face2face/app/Model/User.php(186): Model->find('first', Array)
+#7 /var/www/html/face2face/app/Model/Token.php(19): User->findByToken('7824bf617b8d4e5...')
+#8 /var/www/html/face2face/app/Controller/UsersController.php(265): Token->check_token()
+#9 [internal function]: UsersController->logout()
+#10 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-07-06 15:55:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/face2face/app/Model/User.php, line 184]
+2016-07-06 15:55:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 184)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 184, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 184, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-06 15:57:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recursive' in 'where clause'
+Request URL: /face2face/users/logout
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Token`....', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Token`....', Array, Array)
+#3 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Token`....', false)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Token), Array)
+#5 /var/www/html/face2face/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/face2face/app/Model/Token.php(54): Model->find('first', Array)
+#7 /var/www/html/face2face/app/Model/Token.php(19): Token->findByToken('7824bf617b8d4e5...')
+#8 /var/www/html/face2face/app/Controller/UsersController.php(265): Token->check_token()
+#9 [internal function]: UsersController->logout()
+#10 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-07-06 16:21:50 Error: [MissingViewException] View file "Users/json/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/login.ctp',
+)
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-06 17:25:43 Error: [MissingViewException] View file "Users/json/change_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/change_password.ctp',
+)
+Request URL: /face2face/users/changePassword
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-06 17:45:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findField' at line 1
+Request URL: /face2face/users/changePassword
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('findField', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('findField', Array, Array)
+#3 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('findField', Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(827): DboSource->query('findField', Array, Object(Token))
+#5 /var/www/html/face2face/app/Model/Token.php(65): Model->__call('findField', Array)
+#6 /var/www/html/face2face/app/Model/Token.php(65): Token->findField('Token.id', Array)
+#7 /var/www/html/face2face/app/Controller/UsersController.php(531): Token->findUserIDByToken('f0c78a7aed9e493...')
+#8 [internal function]: UsersController->changePassword()
+#9 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-07-06 17:45:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findField' at line 1
+Request URL: /face2face/users/changePassword
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('findField', Array)
+#2 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('findField', Array, Array)
+#3 /var/www/html/face2face/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('findField', Array, Array)
+#4 /var/www/html/face2face/lib/Cake/Model/Model.php(827): DboSource->query('findField', Array, Object(Token))
+#5 /var/www/html/face2face/app/Model/Token.php(65): Model->__call('findField', Array)
+#6 /var/www/html/face2face/app/Model/Token.php(65): Token->findField('Token.id', Array)
+#7 /var/www/html/face2face/app/Controller/UsersController.php(531): Token->findUserIDByToken('f0c78a7aed9e493...')
+#8 [internal function]: UsersController->changePassword()
+#9 /var/www/html/face2face/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-07-06 17:59:39 Error: [MissingViewException] View file "Users/json/reset_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/reset_password.ctp',
+)
+Request URL: /face2face/users/reset_password/A8194479-D5E9-44E2-98DF-10099382EAE1
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-06 18:12:31 Error: [MissingViewException] View file "Users/json/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/login.ctp',
+)
+Request URL: /face2face/users/login
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

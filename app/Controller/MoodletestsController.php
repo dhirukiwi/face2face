@@ -23,7 +23,7 @@ class MoodletestsController extends AppController {
 
 
         $allcourses = $HttpSocket->post('http://localhost/moodle/webservice/rest/server.php', array(
-            'wstoken' => 'ab5321780313b2615e3fcc60a351d85d',
+            'wstoken' => 'd114af5389ec78638b9b47fa9cba97a9',
             //'service'=>'f2f',
             'wsfunction' => 'core_course_get_courses',
             //'userid'=>'1004',
@@ -43,7 +43,7 @@ class MoodletestsController extends AppController {
     public function coursesUserId() {
         $HttpSocket = new HttpSocket();
         $courses_by_user_id = $HttpSocket->post('http://localhost/moodle/webservice/rest/server.php', array(
-            'wstoken' => 'ab5321780313b2615e3fcc60a351d85d',
+            'wstoken' => 'd114af5389ec78638b9b47fa9cba97a9',
             //'service'=>'f2f',
             'wsfunction' => 'core_enrol_get_users_courses',
             'userid' => '1004',
@@ -63,7 +63,7 @@ class MoodletestsController extends AppController {
     public function coursesCourseId() {
         $HttpSocket = new HttpSocket();
         $courses_courseID = $HttpSocket->post('http://localhost/moodle/webservice/rest/server.php', array(
-            'wstoken' => 'ab5321780313b2615e3fcc60a351d85d',
+            'wstoken' => 'd114af5389ec78638b9b47fa9cba97a9',
             //'service'=>'f2f',
             'wsfunction' => 'core_course_get_courses',
             //'cmid'=>'2',
