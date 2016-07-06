@@ -7,18 +7,21 @@
  */
 //require_once('/var/www/html/moodle/'.'config.php');
 App::uses('HttpSocket', 'Network/Http');
+
 class MoodletestsController extends AppController {
-        public function beforeFilter() {
+
+    public function beforeFilter() {
         parent::beforeFilter();
         //$this->RequestHandler->ext='json';
         $this->Auth->allow();
     }
+
     public function allCourses() {
         //$this->autoRender = false;
         //$this->RequestHandler->renderAs($this, 'json');
         $HttpSocket = new HttpSocket();
-        
-      
+
+
         $allcourses = $HttpSocket->post('http://localhost/moodle/webservice/rest/server.php', array(
             'wstoken' => 'ab5321780313b2615e3fcc60a351d85d',
             //'service'=>'f2f',
@@ -28,14 +31,16 @@ class MoodletestsController extends AppController {
             'moodlewsrestformat' => 'json',
                 //'options[ids][0]'=>'278'
         ));
-        echo $allcourses;exit;
+        echo $allcourses;
+        exit;
 //        print_r(json_decode($result));
- return $this->set(array(
-                    'allcourses' =>$allcourses,
-                    '_serialize'=>array('allcourses')
-                )); 
+        return $this->set(array(
+                    'allcourses' => $allcourses,
+                    '_serialize' => array('allcourses')
+        ));
     }
-        public function coursesUserId(){
+
+    public function coursesUserId() {
         $HttpSocket = new HttpSocket();
         $courses_by_user_id = $HttpSocket->post('http://localhost/moodle/webservice/rest/server.php', array(
             'wstoken' => 'ab5321780313b2615e3fcc60a351d85d',
@@ -46,15 +51,17 @@ class MoodletestsController extends AppController {
             'moodlewsrestformat' => 'json',
                 //'options[ids][0]'=>'278'
         ));
-echo $courses_by_user_id;exit;
+        echo $courses_by_user_id;
+        exit;
 //        print_r(json_decode($result));
- return $this->set(array(
-                    'courses_by_user_id' =>$courses_by_user_id,
-                    '_serialize'=>array('courses_by_user_id')
-                )); 
-    } 
-        public function coursesCourseId(){
-            $HttpSocket = new HttpSocket();
+        return $this->set(array(
+                    'courses_by_user_id' => $courses_by_user_id,
+                    '_serialize' => array('courses_by_user_id')
+        ));
+    }
+
+    public function coursesCourseId() {
+        $HttpSocket = new HttpSocket();
         $courses_courseID = $HttpSocket->post('http://localhost/moodle/webservice/rest/server.php', array(
             'wstoken' => 'ab5321780313b2615e3fcc60a351d85d',
             //'service'=>'f2f',
@@ -63,13 +70,13 @@ echo $courses_by_user_id;exit;
             'moodlewsrestformat' => 'json',
             'courseid' => '278'
         ));
-        echo $courses_courseID;exit;
+        echo $courses_courseID;
+        exit;
 //        print_r(json_decode($result));
- return $this->set(array(
-                    'courses_courseID' =>$courses_courseID,
-                    '_serialize'=>array('courses_courseID')
-                )); 
+        return $this->set(array(
+                    'courses_courseID' => $courses_courseID,
+                    '_serialize' => array('courses_courseID')
+        ));
     }
-    
-}
 
+}

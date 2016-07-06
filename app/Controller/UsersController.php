@@ -422,7 +422,7 @@ class UsersController extends AppController {
                     //$session_token = $this->Session->id();
 
                     $user_id = $this->Auth->user('id');
-                    $session_token = md5($user_id . $data['username']);
+                    $session_token = md5($user_id . $data['username'].rand(6, 8));
 
                     $token_array = array(
                         'Token' => array(

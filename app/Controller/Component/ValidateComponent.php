@@ -209,9 +209,9 @@ class ValidateComponent extends Component {
         $Email->subject('Face2Face Healthcare Forgot Password Request');
 
         if ($Email->send()) {
-            return 'success';
+            return true;
         } else {
-            return 'failure';
+            return false;
         }
     }
 }

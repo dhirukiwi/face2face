@@ -8255,3 +8255,15 @@ Stack Trace:
 #1 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #2 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-07-01 18:34:15 Error: [MissingViewException] View file "Users/json/reset_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/reset_password.ctp',
+)
+Request URL: /face2face/users/reset_password/5C6797D2-9EB9-42C6-A342-7997A0E812D9
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
