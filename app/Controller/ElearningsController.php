@@ -230,9 +230,7 @@ class ElearningsController extends AppController {
                     'message' => $courseContentsArray->message,
                     'courseContents' => array($courseContentsArray),
                     '_serialize' => array('code','status','message','courseContents')
-        ));
+            ));
         }
-        
     }
-
 }

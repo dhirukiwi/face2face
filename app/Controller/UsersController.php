@@ -2,18 +2,23 @@
 
 App::uses('CakeEmail', 'Network/Email');
 App::uses('curl', 'Lib');
-
+App::uses('HttpSocket', 'Network/Http');
 class UsersController extends AppController {
 
     public $components = array('RequestHandler', 'Auth', 'Session', 'Message', 'Validate');
     public $helpers = array('Html', 'Form');
     public $uses = array('Token', 'User');
     //Moodle Registration variables
-    private $token;          //'0b5a1e98061c5f7fb70fc3b42af6bfc4';
+    /*private $token;          //'0b5a1e98061c5f7fb70fc3b42af6bfc4';
     private $domainName;     // 'http://local.moodle.dev';
-    private $serverUrl;
+    
     public $error;
-    public $response;
+    public $response;*/
+    
+    private $token = 'd114af5389ec78638b9b47fa9cba97a9';
+    private $serverUrl;
+    private $moodlewsrestformat = 'json';
+    private $webservice_url= 'http://localhost/moodle/webservice/rest/server.php';
 
     public function beforeFilter() {
         parent::beforeFilter();
@@ -159,10 +164,10 @@ class UsersController extends AppController {
 
     protected function moodleSignup($data) {
 
-        $this->token = 'd114af5389ec78638b9b47fa9cba97a9';
-        $this->domainName = 'http://localhost/moodle';
+       // $this->token = 'd114af5389ec78638b9b47fa9cba97a9';
+       // $this->domainName = 'http://localhost/moodle';
 
-        $this->serverUrl = $this->domainName . '/webservice/rest/server.php' . '?wstoken=' . $this->token;
+        $this->serverUrl = $this->webservice_url . '?wstoken=' . $this->token;
 
         if (!empty($data)) {
             $functionName = 'core_user_create_users';
@@ -383,7 +388,10 @@ class UsersController extends AppController {
                 $token_id = $checkToken['Token']['id'];
                 //echo $token_id;exit;
                 // $userid = $this->User->get_user_id();
-                $this->Token->delete($token_id);
+                //$this->Token->delete($token_id);
+                $this->Token->deleteAll([
+                    'Token.user_id' => $checkToken['Token']['user_id']
+                ]);
                 /* Disable Push Notification Start */
                 // $this->User->id = $userid;
                 // $this->User->saveField("push_notification", "no");

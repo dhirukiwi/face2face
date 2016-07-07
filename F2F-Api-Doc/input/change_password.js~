@@ -1,17 +1,21 @@
 /**
-* @api {delete} /users/logout Signout a Consumer
+* @api {put} /users/changePassword Change Password
 * @apiVersion 0.0.1
-* @apiName signout
+* @apiName change password
 * @apiGroup Authentication
 * @apiPermission None
 *
-* @apiDescription user can signout
+* @apiDescription user can change password
 * 
 * @apiHeader {String} HTTP_TOKEN      * a token send by header as TOKEN
 
+* @apiParam {String} old_password     * old password
+* @apiParam {String} password         * new password
+* @apiParam {String} cpassword        * confirm password
+
 *
 * @apiExample Example usage:
-* curl -X Delete -d '{}' https://api.f2f.io/v1/users/logout
+* curl -X PUT -d '{"old_password": "mypassword", "password": "mypassword", 'cpassword': "mypassword"}' https://api.f2f.io/v1/users/changePassword
 *
 * @apiSuccess {Number}        code                  Status Code.
 * @apiSuccess {String}        status                Status Type.
@@ -24,7 +28,7 @@
 *        {
 *            	"code": 	200,
 *            	"status": 	"Ok",
-*		"message": 	"User successfully logout."
+*		"message": 	"Your password has been changed"
 *        }
 *
 * @apiSuccess {Number}        code                  Status Code.
@@ -34,9 +38,9 @@
 * @apiErrorExample {json} Error-Response: 
 *        HTTP/1.1 400 Bad Request
 *        {
-*             	"code": "401",
-*		"status": "Unauthorized",
-*		"message": "Invalid Token or Unauthorised user"
+*             	"code": "400",
+*		"status": "Bad Request",
+*		"message": "Requested Parameter is not correct"
 *        }
 */
 

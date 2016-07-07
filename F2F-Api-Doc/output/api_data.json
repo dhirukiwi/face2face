@@ -1,5 +1,111 @@
 [
   {
+    "type": "put",
+    "url": "/users/changePassword",
+    "title": "Change Password",
+    "version": "0.0.1",
+    "name": "change_password",
+    "group": "Authentication",
+    "permission": [
+      {
+        "name": "None"
+      }
+    ],
+    "description": "<p>user can change password</p>",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "HTTP_TOKEN",
+            "description": "<ul> <li>a token send by header as TOKEN</li> </ul>"
+          }
+        ]
+      }
+    },
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "old_password",
+            "description": "<ul> <li>old password</li> </ul>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "password",
+            "description": "<ul> <li>new password</li> </ul>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "cpassword",
+            "description": "<ul> <li>confirm password</li> </ul>"
+          }
+        ]
+      }
+    },
+    "examples": [
+      {
+        "title": "Example usage:",
+        "content": "curl -X PUT -d '{\"old_password\": \"mypassword\", \"password\": \"mypassword\", 'cpassword': \"mypassword\"}' https://api.f2f.io/v1/users/changePassword",
+        "type": "json"
+      }
+    ],
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Number",
+            "optional": false,
+            "field": "code",
+            "description": "<p>Status Code.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "status",
+            "description": "<p>Status Type.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "message",
+            "description": "<p>Status Message.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response: ",
+          "content": "       HTTP/1.1 201 Created\n       {\n           \t\"code\": \t200,\n           \t\"status\": \t\"Ok\",\n\t\t\"message\": \t\"Your password has been changed\"\n       }",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "examples": [
+        {
+          "title": "Error-Response: ",
+          "content": "       HTTP/1.1 400 Bad Request\n       {\n            \t\"code\": \"400\",\n\t\t\"status\": \"Bad Request\",\n\t\t\"message\": \"Requested Parameter is not correct\"\n       }",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "input/change_password.js",
+    "groupTitle": "Authentication"
+  },
+  {
     "type": "post",
     "url": "/users/forgotPassword",
     "title": "forgot password",
@@ -81,7 +187,7 @@
   {
     "type": "post",
     "url": "/users/reset_password/5C6797D2-9EB9-42C6-A342-7997A0E812D9",
-    "title": "reset password",
+    "title": "Reset Password",
     "version": "0.0.1",
     "name": "reset_password",
     "group": "Authentication",
@@ -167,7 +273,7 @@
   {
     "type": "post",
     "url": "/users/login",
-    "title": "signin a consumer",
+    "title": "Signin a Consumer",
     "version": "0.0.1",
     "name": "signin",
     "group": "Authentication",
@@ -258,9 +364,88 @@
     "groupTitle": "Authentication"
   },
   {
+    "type": "delete",
+    "url": "/users/logout",
+    "title": "Signout a Consumer",
+    "version": "0.0.1",
+    "name": "signout",
+    "group": "Authentication",
+    "permission": [
+      {
+        "name": "None"
+      }
+    ],
+    "description": "<p>user can signout</p>",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "HTTP_TOKEN",
+            "description": "<ul> <li>a token send by header as TOKEN</li> </ul>"
+          }
+        ]
+      }
+    },
+    "examples": [
+      {
+        "title": "Example usage:",
+        "content": "curl -X Delete -d '{}' https://api.f2f.io/v1/users/logout",
+        "type": "json"
+      }
+    ],
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Number",
+            "optional": false,
+            "field": "code",
+            "description": "<p>Status Code.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "status",
+            "description": "<p>Status Type.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "message",
+            "description": "<p>Status Message.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response: ",
+          "content": "       HTTP/1.1 201 Created\n       {\n           \t\"code\": \t200,\n           \t\"status\": \t\"Ok\",\n\t\t\"message\": \t\"User successfully logout.\"\n       }",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "examples": [
+        {
+          "title": "Error-Response: ",
+          "content": "       HTTP/1.1 400 Bad Request\n       {\n            \t\"code\": \"401\",\n\t\t\"status\": \"Unauthorized\",\n\t\t\"message\": \"Invalid Token or Unauthorised user\"\n       }",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "input/signout.js",
+    "groupTitle": "Authentication"
+  },
+  {
     "type": "post",
     "url": "/users/signup",
-    "title": "signup a consumer",
+    "title": "Signup a Consumer",
     "version": "0.0.1",
     "name": "signup",
     "group": "Authentication",
