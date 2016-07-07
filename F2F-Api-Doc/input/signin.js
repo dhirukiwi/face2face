@@ -1,5 +1,5 @@
 /**
-* @api {post} /users/login signin a consumer
+* @api {post} /users/login Signin a Consumer
 * @apiVersion 0.0.1
 * @apiName signin
 * @apiGroup Authentication

@@ -1,5 +1,5 @@
 /**
-* @api {post} /users/reset_password/5C6797D2-9EB9-42C6-A342-7997A0E812D9 reset password
+* @api {post} /users/reset_password/5C6797D2-9EB9-42C6-A342-7997A0E812D9 Reset Password
 * @apiVersion 0.0.1
 * @apiName reset password
 * @apiGroup Authentication

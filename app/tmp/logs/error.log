@@ -8441,3 +8441,51 @@ Stack Trace:
 #3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2016-07-07 12:36:34 Error: [MissingViewException] View file "Elearnings/json/courses_course_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Elearnings/json/courses_course_id.ctp',
+)
+Request URL: /face2face/elearnings/coursesCourseId
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ElearningsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-07 12:36:45 Error: [MissingViewException] View file "Elearnings/json/courses_course_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Elearnings/json/courses_course_id.ctp',
+)
+Request URL: /face2face/elearnings/coursesCourseId/43
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ElearningsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-07 12:36:58 Error: [MissingViewException] View file "Elearnings/json/courses_course_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Elearnings/json/courses_course_id.ctp',
+)
+Request URL: /face2face/elearnings/coursesCourseId/23
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ElearningsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-07 13:01:47 Error: [MissingViewException] View file "Elearnings/json/courses_course_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Elearnings/json/courses_course_id.ctp',
+)
+Request URL: /face2face/elearnings/coursesCourseId
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ElearningsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

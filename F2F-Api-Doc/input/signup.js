@@ -1,5 +1,5 @@
 /**
-* @api {post} /users/signup signup a consumer
+* @api {post} /users/signup Signup a Consumer
 * @apiVersion 0.0.1
 * @apiName signup
 * @apiGroup Authentication
