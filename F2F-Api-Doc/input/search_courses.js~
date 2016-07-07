@@ -1,6 +1,7 @@
 /**
 * @api {POST} /elearnings/searchCourses Search Courses
 * @apiVersion 0.0.1
+<<<<<<< HEAD
 * @apiName Search Courses
 * @apiGroup LMS
 * @apiPermission None
@@ -13,11 +14,29 @@
 *
 * @apiExample Example usage:
 * curl -X POST -d '{"courseid" : 278}' https://api.f2f.io/v1/elearnings/searchCourses
+=======
+* @apiName Search Course
+* @apiGroup LMS
+* @apiPermission None
+*
+* @apiDescription Search course by  Keyword like course name , tag name etc using Moodle Web Service on F2F System
+* 
+* @apiParam {string} keyword         	* keyword to be search
+* @apiParam {Number} page          	* current page number (0) as default
+* @apiParam {Number} perpage          	* number of records per page
+*
+* @apiExample Example usage:
+* curl -X POST -d '{"keyword" : "heart","page":0,"perpage":10}' https://api.f2f.io/v1/elearnings/searchCourses
+>>>>>>> 2eae79e53dd9baa823394763fee4a292647c673d
 *
 * @apiSuccess {Number}        code                  Status Code.
 * @apiSuccess {String}        status                Status Type.
 * @apiSuccess {String}        message               Status Message.
+<<<<<<< HEAD
 * @apiSuccess {String}        data                  Course Details JSON Data.
+=======
+* @apiSuccess {String}        data                  course listing JSON Data.
+>>>>>>> 2eae79e53dd9baa823394763fee4a292647c673d
 *
 * 
 * @apiSuccessExample {json} Success-Response: 

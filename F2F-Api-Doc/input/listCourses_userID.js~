@@ -1,23 +1,21 @@
 /**
-* @api {POST} /elearnings/searchCourses Search Courses
+* @api {POST} /elearnings/coursesUserId Course Listing By User Token of F2F  
 * @apiVersion 0.0.1
-* @apiName Search Course
+* @apiName Course Listing by User Token of F2F
 * @apiGroup LMS
 * @apiPermission None
 *
-* @apiDescription Search course by  Keyword like course name , tag name etc using Moodle Web Service on F2F System
+* @apiDescription Course Listing by User Token using Moodle Web Service on F2F System
 * 
-* @apiParam {string} keyword         	* keyword to be search
-* @apiParam {Number} page          	* current page number (0) as default
-* @apiParam {Number} perpage          	* number of records per page
+* @apiParam {string} HTTP_TOKEN      * a token send by header as TOKEN
 *
 * @apiExample Example usage:
-* curl -X POST -d '{"keyword" : "heart","page":0,"perpage":10}' https://api.f2f.io/v1/elearnings/searchCourses
+* curl -X POST -d '' https://api.f2f.io/v1/elearnings/coursesUserId
 *
 * @apiSuccess {Number}        code                  Status Code.
 * @apiSuccess {String}        status                Status Type.
 * @apiSuccess {String}        message               Status Message.
-* @apiSuccess {String}        data                  course listing JSON Data.
+* @apiSuccess {String}        data                  Course Details JSON Data.
 *
 * 
 * @apiSuccessExample {json} Success-Response: 
@@ -26,15 +24,11 @@
 *       	"code": 	200,
 *            	"status": 	"Ok",
 *		"message": 	"The request is OK",
-*		"data":         "[[{
-*					"total":455,
-*					"courses":[{
-*						"id":courseID,
-*						"shortname":course short name,
-*						"categoryID":course category ID,
-*						"fullname":"course full name",
-*						"summary":Course summary
-*					}]
+*		"Data":         "[[{
+*					"id":courseID,
+*					"shortname":course short name,
+*					"fullname":"course full name",
+*					"summary":Course summary
 *				    }]]
 *	}
 *       				
@@ -48,8 +42,13 @@
 *        HTTP/1.1 400 Bad Request
 *        {
 *		"code": "400",
-*    		"status": "Bad Request",
-*    		"message": "Requested Parameter is not correct"
+*		"status": "Bad Request",
+*		"message": "Invalid token - token not found",
+*		"Data":         "[[{
+*					"exception": "moodle_exception",
+*            				"errorcode": "invalidtoken",
+*            				"message": "Invalid token - token not found"
+*				    }]]
 *	}
 */
 
