@@ -8871,3 +8871,65 @@ Stack Trace:
 #4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 >>>>>>> 2eae79e53dd9baa823394763fee4a292647c673d
 #5 {main}
+2016-07-08 15:24:40 Error: [MissingViewException] View file "Auditlogs/test.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Auditlogs/test.ctp',
+)
+Request URL: /face2face/auditlogs/test
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/face2face/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/face2face/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AuditlogsController), Object(CakeRequest))
+#4 /var/www/html/face2face/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-11 12:34:25 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/var/www/html/face2face/app/Controller/ElearningsController.php, line 245]
+2016-07-11 12:34:25 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /face2face/elearnings/courseContentsByCourseId
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/f...', 245)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-11 12:35:16 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/var/www/html/face2face/app/Controller/ElearningsController.php, line 245]
+2016-07-11 12:35:16 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /face2face/elearnings/courseContentsByCourseId
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/f...', 245)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-11 12:36:07 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/var/www/html/face2face/app/Controller/ElearningsController.php, line 245]
+2016-07-11 12:36:07 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /face2face/elearnings/courseContentsByCourseId
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/f...', 245)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-11 12:37:33 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/var/www/html/face2face/app/Controller/ElearningsController.php, line 245]
+2016-07-11 12:37:33 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /face2face/elearnings/courseContentsByCourseId
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/f...', 245)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-11 12:38:44 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/var/www/html/face2face/app/Controller/ElearningsController.php, line 245]
+2016-07-11 12:38:44 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /face2face/elearnings/courseContentsByCourseId
+Stack Trace:
+#0 /var/www/html/face2face/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/f...', 245)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#2 /var/www/html/face2face/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/f...', 245, Array)
+#3 /var/www/html/face2face/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -177,7 +177,7 @@ class ElearningsController extends AppController {
         
         
     } else {
-            $result = $this->set(
+            return $this->set(
                 array(
                     'code' => Configure::read('Message.code.8'),
                     'status' => Configure::read('Message.status.8'),
@@ -230,18 +230,25 @@ class ElearningsController extends AppController {
             );
         }
     }
-  public function courseContents() {
-        
+  public function courseContentsByCourseId() {
+         if($this->request->is('post')){
+            $data = $this->request->input('json_decode', true);
+        if(!empty($data['courseid'])){   
+        $courseID = $data['courseid'];
         $HttpSocket = new HttpSocket();
         $courseContents = $HttpSocket->post($this->webservice_url, array(
             'wstoken' => $this->token,
             'wsfunction' => 'core_course_get_contents',
             'moodlewsrestformat' => $this->moodlewsrestformat,
             //'options[ids][0]'=>'278'
-            'courseid'=>'278'
+            'courseid'=>$courseID,
+            //'cmid'=>'3535',
+            // $option['name']=>'cmid'
             
         ));
+        
         $courseContentsArray = json_decode($courseContents);
+        
         if((empty($courseContentsArray->exception) && empty($courseContentsArray->errorcode) && empty($courseContentsArray->message))){
            
           
@@ -264,9 +271,30 @@ class ElearningsController extends AppController {
                     '_serialize' => array('code','status','message','courseContents')
         ));
         }
+        }
+        else{
+            return $this->set(array(
+                    'code' => Configure::read('Message.code.5'),
+                    'status' => Configure::read('Message.status.5'),
+                    'message' => $courseContentsArray->message,
+                    'data' => array($courseContentsArray),
+                    '_serialize' => array('code','status','message','data')
+        ));
+        }
+         }
+        else{
+            return $this->set(
+                array(
+                    'code' => Configure::read('Message.code.8'),
+                    'status' => Configure::read('Message.status.8'),
+                    'message' => Configure::read('Message.message.8'), //success
+                    '_serialize' => array('code', 'status', 'message')
+                )
+            );
+        }
         
     }
-   public function courseContentsModule() {
+   public function courseContentByModuleId() {
         
         $HttpSocket = new HttpSocket();
         $courseContents = $HttpSocket->post($this->webservice_url, array(
@@ -275,10 +303,13 @@ class ElearningsController extends AppController {
             'moodlewsrestformat' => $this->moodlewsrestformat,
             //'options[ids][0]'=>'278'
             //'courseid'=>'278',
-            'cmid'=>'3535'
+            'cmid'=>'3535',
+            //'options'=>array('name'=>'modname')
+//            'pageid'=>'1'
             
         ));
         $courseContentsArray = json_decode($courseContents);
+        
         if((empty($courseContentsArray->exception) && empty($courseContentsArray->errorcode) && empty($courseContentsArray->message))){
            
           
@@ -312,11 +343,14 @@ class ElearningsController extends AppController {
             'wsfunction' => 'core_course_get_course_module_by_instance',
             'moodlewsrestformat' => $this->moodlewsrestformat,
             //'options[ids][0]'=>'278'
-            //'courseid'=>'278',
-            'module'=>'1'
+//            'courseid'=>'278',
+            //'module'=>'13',
+            'module'=>'lesson',
+            'instance'=>'2',
             
         ));
         $courseContentsArray = json_decode($courseContents);
+        
         if((empty($courseContentsArray->exception) && empty($courseContentsArray->errorcode) && empty($courseContentsArray->message))){
            
           
